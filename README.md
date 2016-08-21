@@ -1,5 +1,5 @@
 # FB GET Access Token
-GET access_token app facebook with email &amp; password via restapi: https://api.facebook.com/restserver.php. Make easy form login with account Facebook
+GET access_token app facebook with email &amp; password via restapi: https://api.facebook.com/restserver.php. Make easy form login with account Facebook. First login will check point, go settings -> turn off [Login Approvals] and [Login Alerts] :)
 
 ## Usage
 ```php
