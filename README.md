@@ -7,9 +7,11 @@ $authlogin = new authlogin([
 'locale' => 'vi_VN',
 'email' => '<Email FB>',
 'password' => '<Password>'
+// 'format' => 'xml'
 ]);
 $authlogin->_exec();
-print_r($authlogin->_getObject());
+print_r($authlogin->_getObject()); // output is stdclass object
+print_r($authlogin->_getArray()); // output is array
 ```
 
 ## Requirements
